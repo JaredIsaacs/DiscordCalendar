@@ -1,5 +1,7 @@
 # DiscordCalendar
 Discord bot that uses googles calendar api.
+https://discord.com/api/oauth2/authorize?client_id=806739762001870901&permissions=19456&scope=bot <- adds bot to server. Be advised, bot doesn't always run. Only when I have it running on my pc.
+
 
 Commands:
 1. "!s eventName day time period"
