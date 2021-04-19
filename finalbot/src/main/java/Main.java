@@ -8,7 +8,7 @@ public class Main {
         DiscordApi api = new DiscordApiBuilder()
                 // Adds custom listeners that looks for commands and adds events to a google calendar
                 .addListener(new CalendarListener()).addListener(new CalendarRetrievalListener()).addListener(new AddAttendeeListener()).addListener(new RemindListener())
-                .setToken("ODA2NzM5NzYyMDAxODcwOTAx.YBt08w.E2CrFMHktmfPR5eNOdbXIaq7Mc0")
+                .setToken("") // Token removed because it messes with my client. If you want to use it yourself, try creating a discord bot @https://discord.com/developers/applications
                 .login().join();
     }
 }
