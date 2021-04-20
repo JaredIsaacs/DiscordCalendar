@@ -6,7 +6,7 @@ https://discord.com/api/oauth2/authorize?client_id=806739762001870901&permission
 
 Commands:
 1. "!s eventName day time period"
-  This command schedules an event named eventname at day and time. Period is AM or PM.
+  This command schedules an event named eventname at day and time. Period is AM or PM. Uses current month and year.
   
 2. "!s eventName year month day time period"
   This command scheudles an event name eventname on the year and month provided at the day and time provided. Period is AM or PM.
