@@ -85,7 +85,7 @@ public class CalendarQuickstart {
         event.setEnd(endDate);
 
         EventAttendee[] attendees = new EventAttendee[]{
-                new EventAttendee().setEmail("jaredisaacs6@gmail.com")
+                new EventAttendee().setEmail("") //Email goes here.
         };
         event.setAttendees(Arrays.asList(attendees));
 
